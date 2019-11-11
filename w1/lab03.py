@@ -87,3 +87,4 @@ test_y3_ = clf3.predict(test_x_poly3)
 print("Mean absolute error: %.2f" % np.mean(np.absolute(test_y3_ - test_y)))
 print("Residual sum of squares (MSE): %.2f" % np.mean((test_y3_ - test_y) ** 2))
 print("R2-score: %.2f" % r2_score(test_y3_ , test_y) )
+
